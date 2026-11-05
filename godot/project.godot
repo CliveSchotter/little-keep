@@ -1,0 +1,27 @@
+; Engine configuration file.
+; Godot 4 spike of the Expo Home playing field. The Expo app stays the game.
+
+config_version=5
+
+[application]
+
+config/name="Little Keep"
+config/description="Spike of the Home playing field. Not a replacement for the Expo app."
+config/version="0.1.0-spike"
+run/main_scene="res://scenes/home_field.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.png"
+
+[display]
+
+window/size/viewport_width=390
+window/size/viewport_height=844
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
